@@ -36,9 +36,3 @@ AI-ACCELERATOR_PROGRAM/
 - Slide decks live in `02_slides/`.
 - Lab instructions and code live in `03_labs/`.
 - Datasets live in `05_datasets/` (see notes inside).
-
-## Notes on datasets
-
-- Commit only **small** datasets to git (use `05_datasets/sample/`).
-- Put large files in `05_datasets/raw/` and distribute them via a link (S3/Drive/HF Datasets/etc.), or use a data versioning tool (DVC) if you want reproducible data pulls.
-
